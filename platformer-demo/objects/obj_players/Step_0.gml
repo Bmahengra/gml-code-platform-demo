@@ -5,15 +5,15 @@ var jump_pressed  =  keyboard_check_pressed(vk_space); //var makes it a local va
 
 // ############### COLLISION CHECKS ###############
 // check if standing on ground
-is_grounded  =  place_meeting(x, y+2, ground_object);
+is_grounded  = place_meeting(x, y+2, ground_object);
 
 //  check if touching a ladder
-is_climbing  =  place_meeting(x,  y, ladder_object)
+is_climbing  =  place_meeting(x,  y, ladder_object);
 
 
-// ############### LADDER CLIMBING ###############
+// ############### MOVEMENT ###############
 if (is_climbing)  {
-	move_y  =  keyboard_check(ck_down)  -  keyboard_check(vk_up);
+	move_y  =  keyboard_check(vk_down)-keyboard_check(vk_up);
 	move_y  *=  climd_speed;
 }
 else  {
@@ -21,6 +21,7 @@ else  {
 		if (is_grounded && jump_pressed)  {
 			move_y  = jump_speed;
 		}
+		// Falling due to gravity
 		else if (move_y < max_fall_speed)  {
 				move_y += gravity_force; // Gravity pulls down!!
 		}
@@ -28,8 +29,13 @@ else  {
 
 
 // ############### MOVE THE PLAYER ###############
-
+move_and_collide(move_x, move_y, ground_object);
 
 
 
 // ############### OUTSIDE ROOM ###############
+if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -200) {
+		room_restart();   // Restart the room if outside the bounderies we set
+}
+
+
