@@ -1,7 +1,7 @@
 // ############### INPUT ###############
 move_x  =  keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x  *=  move_speed
-var jump_pressed  =  keyboard_check_pressed(vk_space); //var makes it a local variable just for this page
+var jump_pressed  =  keyboard_check_pressed(vk_up); //var makes it a local variable just for this page
 
 // ############### COLLISION CHECKS ###############
 // check if standing on ground
