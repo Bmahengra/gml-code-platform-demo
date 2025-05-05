@@ -17,6 +17,8 @@
     {"id":{"name":"spr_walking_animation_leftt","path":"sprites/spr_walking_animation_leftt/spr_walking_animation_leftt.yy",},"order":9,},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},"order":1,},
     {"id":{"name":"spr_walking_animation_rightt","path":"sprites/spr_walking_animation_rightt/spr_walking_animation_rightt.yy",},"order":8,},
+    {"id":{"name":"Object10","path":"objects/Object10/Object10.yy",},"order":9,},
+    {"id":{"name":"spr_dirt_block","path":"sprites/spr_dirt_block/spr_dirt_block.yy",},"order":11,},
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":6,},
     {"id":{"name":"obj_sky","path":"objects/obj_sky/obj_sky.yy",},"order":5,},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"order":3,},

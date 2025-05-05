@@ -42,4 +42,4 @@ move_and_collide(move_x, move_y, ground_object);
 
 // ############### CHANGE SPRITE ###############
 
- if key_pressed(vk_right)  object_set_sprite(obj_players, spr_walking_animation_rightt);
+
