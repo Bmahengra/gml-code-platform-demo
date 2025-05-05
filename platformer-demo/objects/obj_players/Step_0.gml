@@ -35,11 +35,8 @@ move_and_collide(move_x, move_y, ground_object);
 
 // ############### OUTSIDE ROOM ###############
 
-{if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -20) 
+{if (x < -20 || x > room_width + 20 || y > room_height + 20 || y < -100) 
 		room_restart();   // Restart the room if outside the bounderies we set
 }
-
-
-// ############### CHANGE SPRITE ###############
 
 

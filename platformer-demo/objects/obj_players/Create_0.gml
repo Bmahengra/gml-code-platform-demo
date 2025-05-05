@@ -13,5 +13,6 @@ is_climbing = false;		// On ladder?
 
 // ### OBJECT REFERENCES ###
 ground_object = obj_ground;		// Replace with your ground object name
-ladder_object = obj_ladder		// Replace with your lader object name
-
+ladder_object = obj_ladder;		// Replace with your lader object name
+coin_object = obj_coin;			// replace your coin object name
+coins_collected = 0;
