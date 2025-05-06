@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "Object12",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_chest",
+    "path": "sprites/spr_chest/spr_chest.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,11 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_players","path":"objects/obj_players/obj_players.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "platformer-demo",
-    "path": "platformer-demo.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
