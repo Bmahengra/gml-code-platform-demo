@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object13",
+  "name": "obj_spike",
   "spriteId": {
-    "name": "Sprite15",
-    "path": "sprites/Sprite15/Sprite15.yy",
+    "name": "spr_spikes",
+    "path": "sprites/spr_spikes/spr_spikes.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,8 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_players","path":"objects/obj_players/obj_players.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

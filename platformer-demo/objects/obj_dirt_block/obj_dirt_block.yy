@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object10",
+  "name": "obj_dirt_block",
   "spriteId": {
     "name": "spr_dirt_block",
     "path": "sprites/spr_dirt_block/spr_dirt_block.yy",

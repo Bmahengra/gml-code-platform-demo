@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object11",
+  "name": "obj_chest",
   "spriteId": {
-    "name": "spr_how_to_climb",
-    "path": "sprites/spr_how_to_climb/spr_how_to_climb.yy",
+    "name": "spr_chest",
+    "path": "sprites/spr_chest/spr_chest.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_players","path":"objects/obj_players/obj_players.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

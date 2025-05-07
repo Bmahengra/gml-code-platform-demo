@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object12",
+  "name": "obj_you_win",
   "spriteId": {
-    "name": "spr_chest",
-    "path": "sprites/spr_chest/spr_chest.yy",
+    "name": "spr_win",
+    "path": "sprites/spr_win/spr_win.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_players","path":"objects/obj_players/obj_players.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
