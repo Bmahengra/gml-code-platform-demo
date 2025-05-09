@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_chest",
+  "name": "obj_chest_collect",
   "spriteId": {
-    "name": "spr_chest",
-    "path": "sprites/spr_chest/spr_chest.yy",
+    "name": "Sprite26",
+    "path": "sprites/Sprite26/Sprite26.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,10 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_players","path":"objects/obj_players/obj_players.yy",},},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
