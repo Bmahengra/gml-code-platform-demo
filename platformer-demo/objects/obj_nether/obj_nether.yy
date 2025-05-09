@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object20",
+  "name": "obj_nether",
   "spriteId": {
     "name": "spr_NETHER",
     "path": "sprites/spr_NETHER/spr_NETHER.yy",
