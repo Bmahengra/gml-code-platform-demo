@@ -1,6 +1,5 @@
-other.coins_collected += 1;
-
-instance_destroy();
-
-audio_play_sound(coin_recieved_230517, 0, false)// plays pick up coin sound
+//collision with player
+if (object_index == obj_players) {
+	score += 1;
+}	
 	
